@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    background-color: #1f2937;
+    color: #f9Faf8;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#header-text {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links {
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: #f9Faf8;
+}
+
+.header-content {
+    background-color: #1f2937;
+    color: #f9Faf8;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header-secondary-text {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.btn-1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+h2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    
+    gap: 60px;
+    margin: 40px 100px;
+}
+
+.box-text {
+    width: 150px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 300px;   
+}
+
+.quote {
+    font-size: 25px;
+    font-weight: 100;
+    color: #1f2937;
+    display: flex;
+    width: 700px;
+}
+
+.author-name {
+    font-weight: 400;
+}
+
+.section-bottom {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3882f6;
+    height: 150px;
+    width: 1000px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn-2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+}
+
+.first-txt {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9Faf8;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
